@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{23c2f444-442f-4215-805b-b9c2663e1ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{9204add2-655d-499d-85a2-a05a19a4c574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content">
+      <UniqueIdentifier>{a55eefff-a842-4230-af93-592700364a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content">
+      <UniqueIdentifier>{f45fa106-40ba-4667-93df-393a4d5ea664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{e3234de0-fce4-4fe0-bc74-e0da653fc16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{3d8e027e-8777-4319-a110-7a3307270d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{3563e4ae-1816-4b27-840d-4b180f1cc8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Physics">
+      <UniqueIdentifier>{aee92686-2fb5-4686-a55e-6527b7479c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Physics\Shapes">
+      <UniqueIdentifier>{5c968c8c-5d60-44ba-8d3f-6f23f9326715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{333886ea-5f64-4033-bf90-50d73710639a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Physics">
+      <UniqueIdentifier>{437e4a53-0108-427e-a0a7-c989ac4ebc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Physics\Shapes">
+      <UniqueIdentifier>{f4e9d862-bf90-4926-9c78-6fe999888e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Physics\Collision">
+      <UniqueIdentifier>{baa067a4-c059-4c23-aba7-6937cbb841d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Physics\Collision">
+      <UniqueIdentifier>{2e4e93a1-106e-4784-bcd3-87ada096ccf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects">
+      <UniqueIdentifier>{035ca355-adf7-4d8b-94ff-9a8e41e6ade5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{7bc4af8b-f81f-4819-82c4-488d282f213d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{f4997f13-29ea-4493-8635-2b3175808215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{3255e1e2-95df-41cb-b4bd-40792d6d6547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects">
+      <UniqueIdentifier>{5fcaf890-360d-4bc7-8324-c07002cfe274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Lights">
+      <UniqueIdentifier>{843def12-f65d-424b-a588-0f74e7855145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Lights\General">
+      <UniqueIdentifier>{6543001b-990f-4d84-bf13-91ddb36d8f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Lights">
+      <UniqueIdentifier>{31ace7d7-7483-45dc-8366-4fe3663eab12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Lights\General">
+      <UniqueIdentifier>{932ed0be-364c-4090-bf40-ee261bb5ff77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Animation">
+      <UniqueIdentifier>{99cf947c-3b23-4a2b-9524-b65b70884185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Animation">
+      <UniqueIdentifier>{0dca7395-06b0-47ba-a34a-720940989f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Tiles">
+      <UniqueIdentifier>{d18ec995-a7c8-4abe-bd27-f67f2e0e2f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Tiles">
+      <UniqueIdentifier>{ef889e54-10c1-4e50-82b3-f8999bc30f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{e6b4160c-d8a3-4973-b186-a1e2a1288bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles">
+      <UniqueIdentifier>{86647197-9cdd-47b3-9c73-94c21dd7e560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles">
+      <UniqueIdentifier>{adc7b318-30a8-49f0-a9bc-0c6f604e50d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Components">
+      <UniqueIdentifier>{08b94c78-181b-4529-8955-96d4caa8911d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Components">
+      <UniqueIdentifier>{bf5e1f82-0c57-4c4c-99a4-04ad81754659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Types">
+      <UniqueIdentifier>{72b6d07e-5fbe-45ad-b4b3-f53ca1f97dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Types">
+      <UniqueIdentifier>{9db25e76-ac7d-440d-a5f6-922739f1142d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\Components">
+      <UniqueIdentifier>{af4c0169-a545-44af-a640-c784d561c09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Components\ObjectParticle">
+      <UniqueIdentifier>{2087e6e4-c501-4bb4-8266-51b5cb100070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\Components">
+      <UniqueIdentifier>{64329885-0206-4d59-87de-9e7e30632011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Drawables">
+      <UniqueIdentifier>{d0238cf6-1853-4d7a-947a-45f8f2af2896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Drawables">
+      <UniqueIdentifier>{31ac9219-3b08-42a7-906e-92249a63a673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Components\ObjParticle">
+      <UniqueIdentifier>{a5989020-60a4-447b-809e-1eccdfce445c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI">
+      <UniqueIdentifier>{d644822b-8150-4108-9988-cf8bec8b74b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI">
+      <UniqueIdentifier>{6ffe976a-2468-4c04-b1c7-31c34108e1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\CompTypes">
+      <UniqueIdentifier>{d767943f-8d28-41bd-ad1b-e2370f575264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\CompTypes">
+      <UniqueIdentifier>{be2ad178-2d75-4380-b8fa-aa4724b0cab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Prefabs">
+      <UniqueIdentifier>{26d1a418-9861-4dda-9a52-9cd2f0a58a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Prefabs">
+      <UniqueIdentifier>{3ea876e0-9c0a-486d-beb7-2af0570d166f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Emitters">
+      <UniqueIdentifier>{4c5dda60-7bfb-4a04-bedf-aeb9d9c9397c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Emitters">
+      <UniqueIdentifier>{87ac515f-0d1a-42f9-b9b6-c36537def4fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="reb\Animator.cpp">
+      <Filter>Source Files\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Circle.cpp">
+      <Filter>Source Files\World\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\CollisionInfo.cpp">
+      <Filter>Source Files\World\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\CollisionSolve.cpp">
+      <Filter>Source Files\World\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Concave.cpp">
+      <Filter>Source Files\World\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Config.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Content.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Convex.cpp">
+      <Filter>Source Files\World\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Functions.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\GameObj.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\IntersectionSolve.cpp">
+      <Filter>Source Files\World\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\LightSource.cpp">
+      <Filter>Source Files\Graphics\Lights\General</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\LoopAnimator.cpp">
+      <Filter>Source Files\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\PointLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Rigidbody.cpp">
+      <Filter>Source Files\World\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Scene.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\ShadedSprite.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Shape.cpp">
+      <Filter>Source Files\World\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Sprite.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\SunLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Transform.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Container.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Tile.cpp">
+      <Filter>Source Files\World\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Tileset.cpp">
+      <Filter>Source Files\World\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\TextureManager.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particle.cpp">
+      <Filter>Source Files\Graphics\Particles\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Component.cpp">
+      <Filter>Source Files\World\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\PixelParticle.cpp">
+      <Filter>Source Files\Graphics\Particles\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\SpriteParticle.cpp">
+      <Filter>Source Files\Graphics\Particles\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Tilemap.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\ContentLoader.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\ObjParticle.cpp">
+      <Filter>Source Files\Graphics\Particles\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\LineLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Drawable.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\ColorFade.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\Fade.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\MoveWhirl.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\MoveLine.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\MoveDirShift.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\LightColorSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components\ObjParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\SpriteColorSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components\ObjParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\TimedFade.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\GUI.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\TextComp.cpp">
+      <Filter>Source Files\Graphics\GUI\CompTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\View.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\RectComp.cpp">
+      <Filter>Source Files\Graphics\GUI\CompTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\ViewComp.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\SpriteComp.cpp">
+      <Filter>Source Files\Graphics\GUI\CompTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\WriteTextComp.cpp">
+      <Filter>Source Files\Graphics\GUI\CompTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\RectButton.cpp">
+      <Filter>Source Files\Graphics\GUI\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Views\SpriteButton.cpp">
+      <Filter>Source Files\Graphics\GUI\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Context.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\TimedScale.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\ParticleEmitter.cpp">
+      <Filter>Source Files\Graphics\Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="reb\Particles\ObjSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components\ObjParticle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reb\Animator.h">
+      <Filter>Header Files\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Circle.h">
+      <Filter>Header Files\World\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\CollisionInfo.h">
+      <Filter>Header Files\World\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\CollisionSolve.h">
+      <Filter>Header Files\World\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Color.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Concave.h">
+      <Filter>Header Files\World\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Config.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Content.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ContentLoader.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Convex.h">
+      <Filter>Header Files\World\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Functions.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\IntersectionSolve.h">
+      <Filter>Header Files\World\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LightSource.h">
+      <Filter>Header Files\Graphics\Lights\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LightSourceInfo.h">
+      <Filter>Header Files\Graphics\Lights\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LightTypeInfo.h">
+      <Filter>Header Files\Graphics\Lights\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LoopAnimator.h">
+      <Filter>Header Files\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Material.h">
+      <Filter>Header Files\World\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Miniball.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\PointLight.h">
+      <Filter>Header Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Rect.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Rigidbody.h">
+      <Filter>Header Files\World\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Scene.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ShadedSprite.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Shader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Shape.h">
+      <Filter>Header Files\World\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Sprite.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\SunLight.h">
+      <Filter>Header Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Transform.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Vector2.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Vector3.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Component.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LambdaComp.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\MainComponent.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Tile.h">
+      <Filter>Header Files\World\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Tileset.h">
+      <Filter>Header Files\World\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\TextureManager.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ParticleComp.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particle.h">
+      <Filter>Header Files\Graphics\Particles\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\OwnedObject.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\PixelParticle.h">
+      <Filter>Header Files\Graphics\Particles\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\SpriteParticle.h">
+      <Filter>Header Files\Graphics\Particles\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Tilemap.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Container.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\GameObj.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\LineLight.h">
+      <Filter>Header Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Drawable.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\ColorFade.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\Fade.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\MoveWhirl.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\MoveLine.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\MoveDirShift.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\ObjSync.h">
+      <Filter>Header Files\Graphics\Particles\Components\ObjectParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\LightColorSync.h">
+      <Filter>Header Files\Graphics\Particles\Components\ObjectParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\SpriteColorSync.h">
+      <Filter>Header Files\Graphics\Particles\Components\ObjectParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\TimedFade.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\GUI.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\TextComp.h">
+      <Filter>Header Files\Graphics\GUI\CompTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\View.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ViewComp.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\RectComp.h">
+      <Filter>Header Files\Graphics\GUI\CompTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\SpriteComp.h">
+      <Filter>Header Files\Graphics\GUI\CompTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\WriteTextComp.h">
+      <Filter>Header Files\Graphics\GUI\CompTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\RectButton.h">
+      <Filter>Header Files\Graphics\GUI\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Views\SpriteButton.h">
+      <Filter>Header Files\Graphics\GUI\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Event.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Context.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Uniform.h">
+      <Filter>Header Files\Graphics\Lights\General</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ObjParticle.h">
+      <Filter>Header Files\Graphics\Particles\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\Particles\TimedScale.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\DrawBatch.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="reb\ParticleEmitter.h">
+      <Filter>Header Files\Graphics\Particles\Emitters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

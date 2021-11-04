@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{61E78AD6-59EF-4E3F-8F5A-957DA2E30413}</ProjectGuid>
+    <RootNamespace>BuasAssignment</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BuasEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)sfml x32\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\other code\visual studio libraries\sfml\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)sfml x64\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\other code\visual studio libraries\sfml\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)sfml x32\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\other code\visual studio libraries\sfml\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)sfml x64\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\other code\visual studio libraries\sfml\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="reb\Particles\ObjSync.cpp" />
+    <ClCompile Include="reb\Context.cpp" />
+    <ClCompile Include="reb\Drawable.cpp" />
+    <ClCompile Include="reb\Game.cpp" />
+    <ClCompile Include="reb\GUI.cpp" />
+    <ClCompile Include="reb\Particles\TimedScale.cpp" />
+    <ClCompile Include="reb\Views\RectButton.cpp" />
+    <ClCompile Include="reb\Views\RectComp.cpp" />
+    <ClCompile Include="reb\Views\SpriteButton.cpp" />
+    <ClCompile Include="reb\Views\SpriteComp.cpp" />
+    <ClCompile Include="reb\Views\TextComp.cpp" />
+    <ClCompile Include="reb\LineLight.cpp" />
+    <ClCompile Include="reb\Particles\LightColorSync.cpp" />
+    <ClCompile Include="reb\Particles\MoveDirShift.cpp" />
+    <ClCompile Include="reb\ObjParticle.cpp" />
+    <ClCompile Include="reb\Component.cpp" />
+    <ClCompile Include="reb\ContentLoader.cpp" />
+    <ClCompile Include="reb\Particle.cpp" />
+    <ClCompile Include="reb\Container.cpp" />
+    <ClCompile Include="reb\Animator.cpp" />
+    <ClCompile Include="reb\Circle.cpp" />
+    <ClCompile Include="reb\CollisionInfo.cpp" />
+    <ClCompile Include="reb\CollisionSolve.cpp" />
+    <ClCompile Include="reb\Concave.cpp" />
+    <ClCompile Include="reb\Config.cpp" />
+    <ClCompile Include="reb\Content.cpp" />
+    <ClCompile Include="reb\Functions.cpp" />
+    <ClCompile Include="reb\GameObj.cpp" />
+    <ClCompile Include="reb\Input.cpp" />
+    <ClCompile Include="reb\IntersectionSolve.cpp" />
+    <ClCompile Include="reb\LightSource.cpp" />
+    <ClCompile Include="reb\LoopAnimator.cpp" />
+    <ClCompile Include="reb\Convex.cpp" />
+    <ClCompile Include="reb\Particles\ColorFade.cpp" />
+    <ClCompile Include="reb\ParticleEmitter.cpp" />
+    <ClCompile Include="reb\Particles\Fade.cpp" />
+    <ClCompile Include="reb\Particles\MoveLine.cpp" />
+    <ClCompile Include="reb\Particles\MoveWhirl.cpp" />
+    <ClCompile Include="reb\Particles\SpriteColorSync.cpp" />
+    <ClCompile Include="reb\Particles\TimedFade.cpp" />
+    <ClCompile Include="reb\PixelParticle.cpp" />
+    <ClCompile Include="reb\PointLight.cpp" />
+    <ClCompile Include="reb\Renderer.cpp" />
+    <ClCompile Include="reb\Rigidbody.cpp" />
+    <ClCompile Include="reb\Scene.cpp" />
+    <ClCompile Include="reb\ShadedSprite.cpp" />
+    <ClCompile Include="reb\Shader.cpp" />
+    <ClCompile Include="reb\Shape.cpp" />
+    <ClCompile Include="reb\Sprite.cpp" />
+    <ClCompile Include="reb\SpriteParticle.cpp" />
+    <ClCompile Include="reb\SunLight.cpp" />
+    <ClCompile Include="reb\Tile.cpp" />
+    <ClCompile Include="reb\Tileset.cpp" />
+    <ClCompile Include="reb\Transform.cpp" />
+    <ClCompile Include="reb\TextureManager.cpp" />
+    <ClCompile Include="reb\Tilemap.cpp" />
+    <ClCompile Include="reb\View.cpp" />
+    <ClCompile Include="reb\ViewComp.cpp" />
+    <ClCompile Include="reb\Views\WriteTextComp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reb\Context.h" />
+    <ClInclude Include="reb\Event.h" />
+    <ClInclude Include="reb\GUI.h" />
+    <ClInclude Include="reb\Drawable.h" />
+    <ClInclude Include="reb\DrawBatch.h" />
+    <ClInclude Include="reb\Particles\TimedScale.h" />
+    <ClInclude Include="reb\Views\RectButton.h" />
+    <ClInclude Include="reb\Views\RectComp.h" />
+    <ClInclude Include="reb\Views\SpriteButton.h" />
+    <ClInclude Include="reb\Views\SpriteComp.h" />
+    <ClInclude Include="reb\Views\TextComp.h" />
+    <ClInclude Include="reb\LineLight.h" />
+    <ClInclude Include="reb\Particles\MoveDirShift.h" />
+    <ClInclude Include="reb\ObjParticle.h" />
+    <ClInclude Include="reb\Particles\MoveWhirl.h" />
+    <ClInclude Include="reb\OwnedObject.h" />
+    <ClInclude Include="reb\Particles\ColorFade.h" />
+    <ClInclude Include="reb\ParticleComp.h" />
+    <ClInclude Include="reb\Particle.h" />
+    <ClInclude Include="reb\ParticleEmitter.h" />
+    <ClInclude Include="reb\LambdaComp.h" />
+    <ClInclude Include="reb\MainComponent.h" />
+    <ClInclude Include="reb\Container.h" />
+    <ClInclude Include="reb\Animator.h" />
+    <ClInclude Include="reb\Circle.h" />
+    <ClInclude Include="reb\CollisionSolve.h" />
+    <ClInclude Include="reb\CollisionInfo.h" />
+    <ClInclude Include="reb\Color.h" />
+    <ClInclude Include="reb\Component.h" />
+    <ClInclude Include="reb\Concave.h" />
+    <ClInclude Include="reb\Config.h" />
+    <ClInclude Include="reb\Content.h" />
+    <ClInclude Include="reb\ContentLoader.h" />
+    <ClInclude Include="reb\Functions.h" />
+    <ClInclude Include="reb\Game.h" />
+    <ClInclude Include="reb\GameObj.h" />
+    <ClInclude Include="reb\Input.h" />
+    <ClInclude Include="reb\IntersectionSolve.h" />
+    <ClInclude Include="reb\LightSource.h" />
+    <ClInclude Include="reb\LightSourceInfo.h" />
+    <ClInclude Include="reb\LightTypeInfo.h" />
+    <ClInclude Include="reb\LoopAnimator.h" />
+    <ClInclude Include="reb\Material.h" />
+    <ClInclude Include="reb\Miniball.h" />
+    <ClInclude Include="reb\Convex.h" />
+    <ClInclude Include="reb\Particles\Fade.h" />
+    <ClInclude Include="reb\Particles\MoveLine.h" />
+    <ClInclude Include="reb\Particles\LightColorSync.h" />
+    <ClInclude Include="reb\Particles\ObjSync.h" />
+    <ClInclude Include="reb\Particles\SpriteColorSync.h" />
+    <ClInclude Include="reb\Particles\TimedFade.h" />
+    <ClInclude Include="reb\PixelParticle.h" />
+    <ClInclude Include="reb\PointLight.h" />
+    <ClInclude Include="reb\Rect.h" />
+    <ClInclude Include="reb\Renderer.h" />
+    <ClInclude Include="reb\Rigidbody.h" />
+    <ClInclude Include="reb\Scene.h" />
+    <ClInclude Include="reb\ShadedSprite.h" />
+    <ClInclude Include="reb\Shader.h" />
+    <ClInclude Include="reb\Shape.h" />
+    <ClInclude Include="reb\Sprite.h" />
+    <ClInclude Include="reb\SpriteParticle.h" />
+    <ClInclude Include="reb\SunLight.h" />
+    <ClInclude Include="reb\Tile.h" />
+    <ClInclude Include="reb\Tileset.h" />
+    <ClInclude Include="reb\Transform.h" />
+    <ClInclude Include="reb\Vector2.h" />
+    <ClInclude Include="reb\Vector3.h" />
+    <ClInclude Include="reb\TextureManager.h" />
+    <ClInclude Include="reb\Tilemap.h" />
+    <ClInclude Include="reb\View.h" />
+    <ClInclude Include="reb\ViewComp.h" />
+    <ClInclude Include="reb\Views\WriteTextComp.h" />
+    <ClInclude Include="reb\Uniform.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\rapidxml.1.13\build\native\rapidxml.targets" Condition="Exists('..\packages\rapidxml.1.13\build\native\rapidxml.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\rapidxml.1.13\build\native\rapidxml.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rapidxml.1.13\build\native\rapidxml.targets'))" />
+  </Target>
+</Project>

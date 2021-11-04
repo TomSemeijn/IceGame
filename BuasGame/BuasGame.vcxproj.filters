@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{75bd6618-601d-470e-825e-dce41c06dfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects">
+      <UniqueIdentifier>{98f58336-c761-4c57-bae2-920a7181deed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineEnums">
+      <UniqueIdentifier>{d01ac091-039b-45f6-970b-7dfe52910d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\Components">
+      <UniqueIdentifier>{85c4d8d1-e8d6-45fa-b32c-2753197f49b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{61e36faf-9241-4c65-bfc3-a29d0c0f61a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Levels">
+      <UniqueIdentifier>{b2dc6b7e-5ed5-4ddb-a590-24440aba48e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Levels">
+      <UniqueIdentifier>{79378675-9406-4fc2-bf8f-7acdd073ee55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects">
+      <UniqueIdentifier>{d9582aa6-d003-45b2-989b-994db25e6e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\Heat">
+      <UniqueIdentifier>{2075db19-d825-4bf0-abc4-ac036e3acd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\Heat\Emitters">
+      <UniqueIdentifier>{88034ee7-3ea9-48c8-b096-62457398e8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\Heat">
+      <UniqueIdentifier>{21d25dc3-c0a1-45a1-94e4-ca69bf0a23a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\Heat\Emitters">
+      <UniqueIdentifier>{6442aafb-27c8-43fd-afa8-ea1f934b8fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\Heat\Objects">
+      <UniqueIdentifier>{21226b2b-74c5-4a2a-81f5-239aa4133c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{bb7b261f-1747-48e3-861d-689ef0896a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI">
+      <UniqueIdentifier>{482f6c36-f863-4b4a-a49f-040c4e0b7873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles">
+      <UniqueIdentifier>{8c5787ff-3fd1-4aa9-8397-98b31de7eb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Components">
+      <UniqueIdentifier>{3e5a5fdd-2995-4b24-b10f-5041a8511724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{872e0b10-b6aa-4405-bf77-8bd4c0a8d1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles">
+      <UniqueIdentifier>{698f4e56-9b0b-4f75-bbf5-fae83d6d32df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Lights">
+      <UniqueIdentifier>{a6fb1c3b-b156-4fbe-8073-739913ec1f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Physics">
+      <UniqueIdentifier>{f2dcd5d7-800d-4e31-bc4d-3a41ba67e14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Physics\Shapes">
+      <UniqueIdentifier>{60a78ccf-a819-4a13-aa86-e3031ea2c663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Animation">
+      <UniqueIdentifier>{c7a7e4e7-1944-4f97-9c27-834488994489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Particles\Objects">
+      <UniqueIdentifier>{6bf40dc5-e17e-4c7d-b437-404b21f4ab45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Lights">
+      <UniqueIdentifier>{01f78155-8e4c-42ff-add1-15d890aad61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\icelevel">
+      <UniqueIdentifier>{cab541ef-ff80-45a4-931f-afc1c240bf31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\GameObjects\icelevel">
+      <UniqueIdentifier>{bf3cfc28-6ffa-4a5a-9fa7-879b61886eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Animation">
+      <UniqueIdentifier>{29a290d5-823a-4f0f-b71c-d949ae709d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI">
+      <UniqueIdentifier>{e9cd59fd-d405-46a0-96e6-bd577f0be956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Components">
+      <UniqueIdentifier>{e8e0a513-c07e-42a8-9838-5dcc60899d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particles\Objects">
+      <UniqueIdentifier>{cfc1ffe4-03e6-495e-9eab-57d08a525c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\Components">
+      <UniqueIdentifier>{6fe179d9-3c85-4478-bf4c-7f11b77cd72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\GameObjects\Heat\Objects">
+      <UniqueIdentifier>{288bb5d0-5ae5-4bf8-9497-bf71869abc9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IceGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentIndex.h">
+      <Filter>Header Files\EngineEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerIndex.h">
+      <Filter>Header Files\EngineEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="TileIndex.h">
+      <Filter>Header Files\EngineEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPulseColor.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="CaveLevel.h">
+      <Filter>Header Files\World\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\World\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralFactory.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Iceblock.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatHolder.h">
+      <Filter>Header Files\World\GameObjects\Heat</Filter>
+    </ClInclude>
+    <ClInclude Include="PointHeat.h">
+      <Filter>Header Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatEmitter.h">
+      <Filter>Header Files\World\GameObjects\Heat</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatObject.h">
+      <Filter>Header Files\World\GameObjects\Heat\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatTile.h">
+      <Filter>Header Files\World\GameObjects\Heat\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Icemeter.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidEmitter.h">
+      <Filter>Header Files\Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DespawnBounds.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ReversePosSync.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LavalLevel.h">
+      <Filter>Header Files\World\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="OpacityScaleSync.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RandSpriteParticle.h">
+      <Filter>Header Files\Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableObjParticle.h">
+      <Filter>Header Files\Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostAnimator.h">
+      <Filter>Header Files\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerHeat.h">
+      <Filter>Header Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaHeat.h">
+      <Filter>Header Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaObject.h">
+      <Filter>Header Files\World\GameObjects\Heat\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IceLevel.h">
+      <Filter>Header Files\World\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalShake.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationalShake.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RandSpriteParticleObject.h">
+      <Filter>Header Files\Graphics\Particles\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScaleSync.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidGlow.h">
+      <Filter>Header Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Penguin.h">
+      <Filter>Header Files\World\GameObjects\icelevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Header Files\World\GameObjects\icelevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>Header Files\World\GameObjects\icelevel</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaTrigger.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyOutBounds.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiLiquidEmitter.h">
+      <Filter>Header Files\Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ObsidianLiquid.h">
+      <Filter>Header Files\Graphics\Particles\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveFromPoint.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerateTo.h">
+      <Filter>Header Files\Graphics\Particles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPulseRadius.h">
+      <Filter>Header Files\World\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaCollide.h">
+      <Filter>Header Files\World\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IceGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="CaveLevel.cpp">
+      <Filter>Source Files\World\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreenSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\World\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralFactory.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatHolder.cpp">
+      <Filter>Source Files\World\GameObjects\Heat</Filter>
+    </ClCompile>
+    <ClCompile Include="PointHeat.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Iceblock.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LiquidEmitter.cpp">
+      <Filter>Source Files\Graphics\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaLevel.cpp">
+      <Filter>Source Files\World\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerHeat.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaHeat.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="IceLevel.cpp">
+      <Filter>Source Files\World\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LiquidGlow.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Penguin.cpp">
+      <Filter>Source Files\World\GameObjects\icelevel</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiLiquidEmitter.cpp">
+      <Filter>Source Files\Graphics\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostAnimator.cpp">
+      <Filter>Source Files\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="IceMeter.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerateTo.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DespawnBounds.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizontalShake.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveFromPoint.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScaleSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="OpacityScaleSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ReversePosSync.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationalShake.cpp">
+      <Filter>Source Files\Graphics\Particles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObsidianLiquid.cpp">
+      <Filter>Source Files\Graphics\Particles\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RandSpriteParticleObject.cpp">
+      <Filter>Source Files\Graphics\Particles\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableObjParticle.cpp">
+      <Filter>Source Files\Graphics\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="RandSpriteParticle.cpp">
+      <Filter>Source Files\Graphics\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyOutBounds.cpp">
+      <Filter>Source Files\World\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPulseColor.cpp">
+      <Filter>Source Files\World\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatObject.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatTile.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaObject.cpp">
+      <Filter>Source Files\World\GameObjects\Heat\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaCollide.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaTrigger.cpp">
+      <Filter>Source Files\World\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BuasAssignment\reb\packages.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BuasGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\Original files\ghost_lit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

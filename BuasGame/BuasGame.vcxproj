@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuasAssignment\BuasAssignment.vcxproj">
+      <Project>{61e78ad6-59ef-4e3f-8f5a-957da2e30413}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccelerateTo.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ContentIndex.h" />
+    <ClInclude Include="DespawnBounds.h" />
+    <ClInclude Include="DestroyOutBounds.h" />
+    <ClInclude Include="EditableObjParticle.h" />
+    <ClInclude Include="Gate.h" />
+    <ClInclude Include="GeneralFactory.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="GhostAnimator.h" />
+    <ClInclude Include="HeatEmitter.h" />
+    <ClInclude Include="HeatHolder.h" />
+    <ClInclude Include="HeatObject.h" />
+    <ClInclude Include="HeatTile.h" />
+    <ClInclude Include="HorizontalShake.h" />
+    <ClInclude Include="Iceblock.h" />
+    <ClInclude Include="IceGame.h" />
+    <ClInclude Include="IceLevel.h" />
+    <ClInclude Include="Icemeter.h" />
+    <ClInclude Include="LambdaCollide.h" />
+    <ClInclude Include="LambdaTrigger.h" />
+    <ClInclude Include="LavaHeat.h" />
+    <ClInclude Include="LavalLevel.h" />
+    <ClInclude Include="LavaObject.h" />
+    <ClInclude Include="LayerIndex.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelIndex.h" />
+    <ClInclude Include="LightPulseColor.h" />
+    <ClInclude Include="LightPulseRadius.h" />
+    <ClInclude Include="CaveLevel.h" />
+    <ClInclude Include="LiquidEmitter.h" />
+    <ClInclude Include="LiquidGlow.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MoveFromPoint.h" />
+    <ClInclude Include="MultiLiquidEmitter.h" />
+    <ClInclude Include="ObsidianLiquid.h" />
+    <ClInclude Include="OpacityScaleSync.h" />
+    <ClInclude Include="Penguin.h" />
+    <ClInclude Include="PointHeat.h" />
+    <ClInclude Include="RandSpriteParticle.h" />
+    <ClInclude Include="RandSpriteParticleObject.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="ReversePosSync.h" />
+    <ClInclude Include="RotationalShake.h" />
+    <ClInclude Include="ObjScaleSync.h" />
+    <ClInclude Include="Scale.h" />
+    <ClInclude Include="TileIndex.h" />
+    <ClInclude Include="TriggerHeat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccelerateTo.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CaveLevel.cpp" />
+    <ClCompile Include="DespawnBounds.cpp" />
+    <ClCompile Include="DestroyOutBounds.cpp" />
+    <ClCompile Include="EditableObjParticle.cpp" />
+    <ClCompile Include="GeneralFactory.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="GhostAnimator.cpp" />
+    <ClCompile Include="HeatHolder.cpp" />
+    <ClCompile Include="HeatObject.cpp" />
+    <ClCompile Include="HeatTile.cpp" />
+    <ClCompile Include="HorizontalShake.cpp" />
+    <ClCompile Include="Iceblock.cpp" />
+    <ClCompile Include="IceGame.cpp" />
+    <ClCompile Include="IceLevel.cpp" />
+    <ClCompile Include="IceMeter.cpp" />
+    <ClCompile Include="LambdaCollide.cpp" />
+    <ClCompile Include="LambdaTrigger.cpp" />
+    <ClCompile Include="LavaHeat.cpp" />
+    <ClCompile Include="LavaLevel.cpp" />
+    <ClCompile Include="LavaObject.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LightPulseColor.cpp" />
+    <ClCompile Include="LiquidEmitter.cpp" />
+    <ClCompile Include="LiquidGlow.cpp" />
+    <ClCompile Include="LoadingScreenSetup.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MoveFromPoint.cpp" />
+    <ClCompile Include="MultiLiquidEmitter.cpp" />
+    <ClCompile Include="ObjScaleSync.cpp" />
+    <ClCompile Include="ObsidianLiquid.cpp" />
+    <ClCompile Include="OpacityScaleSync.cpp" />
+    <ClCompile Include="Penguin.cpp" />
+    <ClCompile Include="PointHeat.cpp" />
+    <ClCompile Include="RandSpriteParticle.cpp" />
+    <ClCompile Include="RandSpriteParticleObject.cpp" />
+    <ClCompile Include="ReversePosSync.cpp" />
+    <ClCompile Include="RotationalShake.cpp" />
+    <ClCompile Include="TriggerHeat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BuasAssignment\reb\packages.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BuasGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\Original files\ghost_lit.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D32FED4A-7C96-4FED-9EE0-C696605E2380}</ProjectGuid>
+    <RootNamespace>BuasGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BuasAssignment;$(SolutionDir)sfml x64\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)sfml x64\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BuasAssignment;$(SolutionDir)sfml x32\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)sfml x32\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BuasAssignment;$(SolutionDir)sfml x32\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)sfml x32\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BuasAssignment;$(SolutionDir)sfml x64\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)sfml x64\SFML-2.5.0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\rapidxml.1.13\build\native\rapidxml.targets" Condition="Exists('..\packages\rapidxml.1.13\build\native\rapidxml.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\rapidxml.1.13\build\native\rapidxml.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rapidxml.1.13\build\native\rapidxml.targets'))" />
+  </Target>
+</Project>
